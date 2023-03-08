@@ -1,0 +1,27 @@
+nav {
+    margin: 0;
+    padding: 0;
+    background-color: #A4DF56;
+    font-size: 20px;
+    color:  #0e472b;
+  }
+  
+  a:link { text-decoration: none; color: #0e472b}
+  
+  a:visited { text-decoration: none; color: #0e472b}
+  
+  a:hover { text-decoration: underline; color: #0e472b}
+  
+  a:active { text-decoration: underline; color: #0e472b}
+
+  #splashPage {
+    background-image: url(./img/burger_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+  }
+
+  #restaurantName {
+    font-family: 'Shantell Sans', cursive;
+    font-size: 100px;
+  }
