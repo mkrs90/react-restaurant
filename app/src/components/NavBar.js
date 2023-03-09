@@ -7,9 +7,9 @@ function NavBar() {
                     <a href="/" className="navbar-brand" style={{fontFamily: 'Shantell Sans'}}>Happy Escape Eatery</a>
                     <div>
                         <ul className="navbar-nav ml-auto">                            
-                                <a href="/" className="nav-item ms-5 me-5">Menu</a>
+                                <a href="#menu" className="nav-item ms-5 me-5">Menu</a>
                                 <a href="/" className="nav-item ms-5 me-5">About</a>
-                                <a href="/" className="nav-item ms-5 me-5">Locations</a>                            
+                                <a href="#hours" className="nav-item ms-5 me-5">Hours</a>                            
                         </ul>
                     </div>
                 </div> 

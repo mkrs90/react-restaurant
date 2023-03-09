@@ -21,52 +21,22 @@ function Data({view}) {
 console.log(foods)
 
 return (
+    <div id='main_container' className='container-fluid p-5'>
     
-    <div className="container border border-dark p-5">
-        <div className="row justify-content-center text-center gap-2">
-            { view === 'Dinner' ? <h1>It's dinnertime!</h1> : <h1>It's not time for dinner!</h1> }
-            <h1 className='mt-3'>{view.toUpperCase()}</h1>
-            {foods.filter((food) => {
-                return food.category === view;
-            }).map(function (food) {
-                return <FoodItem key={food.id} food={food} />
-            }, []
-            )}
-
-            {/* <h1 className='mt-3'>BREAKFAST</h1>
-            {foods.filter((breakfast) => {
-                return breakfast.category === 'Breakfast';
-            }).map(function (breakfast) {
-                return <FoodItem key={breakfast.id} food={breakfast} />
-            }, []
-            )}
-
-            <h1 className='mt-3'>LUNCH</h1>
-            {foods.filter((lunch) => {
-                return lunch.category === 'Lunch';
-            }).map(function (lunch) {
-                return <FoodItem key={lunch.id} food={lunch} />
-            }, []
-            )}
-
-            <h1 className='mt-3'>DINNER</h1>
-            {foods.filter((dinner) => {
-                return dinner.category === 'Dinner';
-            }).map(function (dinner) {
-                return <FoodItem key={dinner.id} food={dinner} />
-            }, []
-            )}
-
-            <h1 className='mt-3'>DRINKS</h1>
-            {foods.filter((drink) => {
-                return drink.category === 'Drink';
-            }).map(function (drink) {
-                return <FoodItem key={drink.id} food={drink} />
-            }, []
-            )} */}
-
+            <div className="container border border-dark">
+                <div className="row justify-content-center text-center gap-2" id='row_container'>
+                    <h3 id="restaurantName">MENU</h3>
+                        { view === 'Dinner'}
+                        <h1 className='mt-3'>{view.toUpperCase()}</h1>
+                        {foods.filter((food) => {
+                            return food.category === view;
+                        }).map(function (food) {
+                            return <FoodItem key={food.id} food={food} />
+                        }, []
+                        )}
+                </div>
             </div>
-        </div>
+    </div>    
     );
 }
 
