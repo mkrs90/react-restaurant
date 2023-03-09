@@ -25,3 +25,9 @@ nav {
     font-family: 'Shantell Sans', cursive;
     font-size: 100px;
   }
+
+  h1 {
+    border-bottom-style: dashed;
+    border-color: #FF9A1F;
+    font-family: 'Shantell Sans', cursive;
+  }
