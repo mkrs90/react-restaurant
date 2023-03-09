@@ -16,11 +16,16 @@ function Data() {
 }, []);
 console.log([foods])
 
+
 let foodListAmerican = foods.filter(function (food) {
-    return food.cuisine_type === 'American';
-}).map(function (food) {
-    return <FoodItem key={food.id} food={food} />
-})
+        return food.cuisine_type === 'American' || food.cuisine_type === 'Mexican';
+    })
+
+// let foodListAmerican = foods.filter(function (food) {
+//     return food.cuisine_type === 'American' || food.cuisine_type === 'Mexican';
+// }).map(function (food) {
+//     return <FoodItem key={food.id} food={food} />
+// })
 
 // let foodListAmerican = foods.map((food) => {
 //     return <FoodItem key={food.id} food={food} />
@@ -31,8 +36,15 @@ return (
     
     <div className="container">
         <div className="row justify-content-center text-center gap-2">
-        <h1>Stuff</h1>
-        {foodListAmerican}
+        <h1>Appetizers</h1>
+        {foodListAmerican.filter((appetizer) => {
+            return appetizer.category === 'Appetizer';
+        }).map(function (appetizer) {
+            return <FoodItem key={appetizer.id} food={appetizer} />
+        }, []
+        )}
+        {/* <h1>Stuff</h1>
+        {foodListAmerican} */}
         </div>
     </div>
     //     <div className="row">
