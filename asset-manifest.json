@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/app/static/css/main.8d6a17ca.css",
+    "main.js": "/app/static/js/main.ba026333.js",
+    "static/css/552.95e804ed.chunk.css": "/app/static/css/552.95e804ed.chunk.css",
+    "static/js/552.6db39c45.chunk.js": "/app/static/js/552.6db39c45.chunk.js",
+    "static/media/avacado.png": "/app/static/media/avacado.7212622a8f9fdd1bb93d.png",
+    "static/media/burger_banner.jpg": "/app/static/media/burger_banner.355ea7fa99ccdd8bebcc.jpg",
+    "index.html": "/app/index.html",
+    "main.8d6a17ca.css.map": "/app/static/css/main.8d6a17ca.css.map",
+    "main.ba026333.js.map": "/app/static/js/main.ba026333.js.map",
+    "552.95e804ed.chunk.css.map": "/app/static/css/552.95e804ed.chunk.css.map",
+    "552.6db39c45.chunk.js.map": "/app/static/js/552.6db39c45.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d6a17ca.css",
+    "static/js/main.ba026333.js"
+  ]
+}
