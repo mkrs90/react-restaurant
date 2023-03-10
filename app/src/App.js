@@ -7,9 +7,6 @@ import MenuNav from "./components/MenuNav";
 import { useState } from "react";
 import ('../src/CSS/App.css');
 
-
-
-
 function App() {
     const [view, setView] = useState("Dinner");
 

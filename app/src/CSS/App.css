@@ -1,3 +1,13 @@
+#main_container {
+  background-image: url(./img/avacado.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#row_container {
+  background-color: white;
+}
+
 nav {
     margin: 0;
     padding: 0;
